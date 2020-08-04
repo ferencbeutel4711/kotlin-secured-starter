@@ -31,6 +31,8 @@ dependencies {
     implementation("javax.validation:validation-api:2.0.1.Final")
     implementation("org.springframework.security:spring-security-oauth2-client:5.3.3.RELEASE")
     implementation("io.jsonwebtoken:jjwt:0.9.1")
+    implementation("jakarta.xml.bind:jakarta.xml.bind-api:2.3.3")
+    implementation("org.glassfish.jaxb:jaxb-runtime:2.3.3")
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")

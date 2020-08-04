@@ -7,8 +7,8 @@ spring:
       client:
         registration:
           github:
-            clientId: "Iv1.8b742abcbc450744"
-            clientSecret: "2ae35dcd1c66100c2fb809ae415a03d57698455b"
+            clientId: ""
+            clientSecret: ""
             redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - user:email
@@ -16,7 +16,7 @@ spring:
 
 security:
   oauth2:
-    tokenSecret: "926D96C90030DD58429D2751AC1BDBBC"
+    tokenSecret: ""
     tokenExpirationMs: 864000000
     authorizedRedirectUris:
       - "{baseUrl}/oauth2/redirect"
