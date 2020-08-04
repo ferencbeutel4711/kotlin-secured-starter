@@ -1,0 +1,22 @@
+spring:
+  data:
+    mongodb:
+      database: "life-at-a-glance"
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: "Iv1.8b742abcbc450744"
+            clientSecret: "2ae35dcd1c66100c2fb809ae415a03d57698455b"
+            redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+            scope:
+              - user:email
+              - read:user
+
+security:
+  oauth2:
+    tokenSecret: "926D96C90030DD58429D2751AC1BDBBC"
+    tokenExpirationMs: 864000000
+    authorizedRedirectUris:
+      - "{baseUrl}/oauth2/redirect"
